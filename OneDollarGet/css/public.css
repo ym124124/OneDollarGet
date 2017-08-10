@@ -1,0 +1,136 @@
+body,div,dl, dt, dd,ul,li,h1,h2,h3,h4,h5,h6,form,a,p,textarea{
+ 	margin: 0;padding: 0;
+ }
+ 
+ ol, ul,li{    
+ 	list-style: none;
+ 	}
+ 
+a{
+	text-decoration: none;
+	display: block;
+	color: white;
+}
+
+img{
+	border:none;
+	display: block;
+}
+
+body{
+	padding-bottom: 100px;
+	background-color: #eee;
+}
+
+.clearfloat{
+	zoom:1;
+}
+
+.clearfloat:after{
+	display:block;
+	clear: both;
+	content:"";
+	visibility: hidden;
+	height: 0;
+}
+.fl-r{
+	float: right;
+	
+}
+
+
+
+
+
+html{
+	width:718px;
+	height: 1276px;
+	background-color:#fad7f0;
+}
+
+p{
+   font-family: "calisto mt";
+}
+
+
+.public-header{
+	width:718px;
+	height: 90px;
+	background-color: #fff;
+	position: relative;
+	border-bottom: 6px solid #eee;
+	
+}
+
+
+
+.public-title{
+	position:absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 208px;
+	height: 25px;
+	background: url(../img/images/public-title.jpg) no-repeat;
+	margin: auto;
+}
+
+.public-header .public-logo{
+	float: right;
+	margin-right:50px ;
+	margin-top: 20px;
+	width:50px;
+	height: 50px;
+	background:url(../img/images/public-logo.jpg) no-repeat;
+	
+}
+
+.public-content{
+	width: 718px;
+    height: 100%;
+	background-color: #eee;
+}
+
+.public-footer .public-icon3 p{
+	position: relative;
+	right: 10px;
+}
+
+
+.public-footer p{
+	font-size: 17px;
+	position: relative;
+	bottom: -12px;
+}
+
+
+.public-footer{
+	position: fixed;
+	left:0px; 
+	bottom:0px;
+	width: 718px;
+	height: 100px;
+	border-top: 2px solid #eee;
+	border-bottom: 2px solid #a6a6a6;
+	background-color: #fff;
+	z-index: 999;
+}
+
+
+.public-footer .public-icon1,.public-icon2,.public-icon3{
+	
+	margin-top: 14px;
+	float: left;
+}
+
+.public-icon1{
+	margin-left: 95px;
+
+}
+
+
+.public-icon2{
+	margin-left: 200px;
+	margin-right: 200px;
+}
